@@ -1,0 +1,193 @@
+﻿File คือ เอกสารที่มีข้อมูล
+Management คือ การจัดการ
+File Management Process  
+1.Create 2.Typing(Collect Data) 3.Save 4.Edit 5.Delete 6.Copy 
+7.Back Up
+Types of Files 
+1.Text File 2.Binary File 3.CSV File
+Basic of File Operations                             
+1.Creating a new file                             
+2.Opening an existing file                     
+3.Reading from that file                     
+4.Writing to that file
+5.Closing the file
+The Architecture of a File System
+โครงสร้างและกลไกการทำงานของระบบปฏิบัติการที่ใช้จัดระเบียบ จัดเก็บ เข้าถึง และจัดการไฟล์บนหน่วยความจำสำรอง
+User Application -> Logical File System -> Virtual File System 
+-> Physical File System -> Partition 1,Partition 2,Partition 3
+Folder File Path and Finding File Path
+Drive Letter -> Folder -> Sub-Folder -> File Name -> Extension
+File Directories
+ช่วยหา Data ให้ง่ายขึ้น
+Structure of Directory
+1.Single-Level Directory
+2.Two-Level Directory
+3.Tree-Structure Directory
+4.Acyclic Graph Structure
+5.General-Graph Directory Structure
+
+
+Main Memory Management
+User Program
+User Interface
+System Calls
+File Management  Memory Management Process Management
+Network Management Power Management
+Hardware
+File Systems in Operating System
+1.FAT (File Allocation Table)
+2.NTFS (New Technology File System)
+3.ext (Extended File System)
+4.HFS (Hierarchical File System)
+5.APFS (Apple File System)
+My Phone OPPO A57
+Free Space = 9GB
+Used Space = 55GB
+Total Storage = 64GB
+Disk Free Space Management in OS
+1.Bit Vecter     
+2.Linked List
+3.Counting 
+4.Grouping
+File Handling in Java
+1.Opening Files
+2.Reading from Files
+3.Writing to Files
+4.Adding to Files
+5.Closing the Files
+
+
+File Handling Computer Language
+1.C++ Files 
+2.C# Files 
+3.C Create Files 
+4.Java Files 
+5.Python Write/Create Files 
+6.PHP File Handling
+Java Script,Go,Kotlin มี File Handling
+File Handling for C++
+iostream,fstream
+fstream control ofstream,ifstream
+
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+int main() {
+  // Create and open a text file
+  ofstream MyFile("filename.txt");
+
+
+  // Write to the file
+  MyFile << "Files can be tricky, but it is fun enough!";
+
+
+  // Close the file
+  MyFile.close();
+}
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+int main() {
+  // Create and open a text file
+  ofstream MyFile("684244121.txt");
+
+
+  // Write to the file
+  MyFile << "684244121(Tritod Jeenchoo), ไตรทศ จีนชู";
+
+
+  // Close the file
+  MyFile.close();
+}
+
+
+
+
+ 
+  
+
+
+
+  
+
+Code Lab 1-9 อยู่ในนี้
+https://github.com/684244121-cyber/File-Management
+Result ของ Lab 9
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result ของ Lab 8
+  
+
+Result ของ Lab 7 
+  
+
+อันนี้ Lab 10 :3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Result ของ Lab 6
